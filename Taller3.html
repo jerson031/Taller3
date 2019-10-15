@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="css.css">
+
+		<meta charset="utf-8"> 
+</head>
+<body style="overflow:auto">
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<div class="container ">
+				<div class="row align-items-start">
+			  
+			   <img class="text-left  img-fluid bg-personal2 " src="p1.jpg" height="100"  >
+			  <div class="col text-black text-justify  font-weight-bold   text-center" > 
+			   <h2> Juan Perez
+			   </h2>
+			   <p>
+				   j.peres@gmail.com</p>
+				   <p>
+						Temuco.chile</p>
+						   </div >
+						   
+													  </div>
+													  
+											   </div>
+
+
+	<div class="row text-right">									   
+		<div class=" text-center">
+		<div class=" form-group formulario">
+				<label for="nombreInput">Nombre</label>
+				<input onchange="validarFormulario()" type="email" class="form-control" id="emailInput" placeholder="escriba su nombre">
+			  </div>
+			  <form>
+					
+					
+					<div class=" form-group">
+					  <label for="exampleFormControlTextarea1">Mensaje Maximo 100 palabras</label>
+					  <textarea class="  text-center form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+				  </form>
+
+				  <button onclick="validarFomulario" class="btn btn-primary btn-block">Registrar</button>
+</div>
+	</div>
+<div id="demo" class="container-fluid">
+		
+
+
+
+	  </div>
+	  
+	  <div id="tablePrint"> </div>
+	  <script>
+		  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+		  document.getElementById("demo").style.fontSize = "25px";
+	  document.getElementById("demo").style.color = "red";
+	  document.getElementById("demo").style.backgroundColor = "yellow";
+
+
+<script type="text/javascript">
+
+	function validarFormulario(){
+		document.getElementById("tablePrint").innerHTML = tablePrint;
+		document.getElementById("demo").innerHTML = nombreInput;
+		
+
+
+	}
+
+</script>
+
+
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
